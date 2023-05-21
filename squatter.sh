@@ -8,7 +8,7 @@ display_help() {
   echo
   echo -e "\033[0;32mUsage:\033[0m squatter [OPTIONS]"
   echo "Options:"
-  echo "  -f, --filter       File containing string patterns (one pattern per line) to match in URLs"
+  echo "  -f, --filter       File containing string patterns (one pattern per line) to match in the CommonName"
   echo "  -o, --output       Write the output to a file instead of printing to stdout"
   echo "  -r, --raw          Display raw certstream output"
   echo "  -h, --help         Display this help message"
