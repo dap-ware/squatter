@@ -4,6 +4,9 @@ Squatter is a bash script that filters and parses the SSL certificate updates fr
 
 This script can be useful for domain researchers and security professionals who wish to monitor newly registered SSL certificates for specific patterns.
 
+[![Watch the video](resources/squatter.png)](https://streamable.com/tvyi5t)
+
+
 ## Features
 
 * Filter certstream output based on a file containing string patterns.
