@@ -3,8 +3,8 @@
 display_help() {
   echo
   echo -e "\033[0;32mDescription:\033[0m"
-  echo "  This script filters the output of certstream based on the specified string patterns and parses the commonnames of certificate updates."
-  echo "  By default, it will filter and display the URL if a match is found."
+  echo "  This script filters the output of certstream based on the specified string patterns and parses the CN (common name) of certificate updates."
+  echo "  By default, it will filter and display the domain if a match is found."
   echo
   echo -e "\033[0;32mUsage:\033[0m squatter [OPTIONS]"
   echo "Options:"
